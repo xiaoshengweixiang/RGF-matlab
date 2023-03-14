@@ -3,16 +3,16 @@ function transmission(T0,Tx,Ty,N,Txy,Emin,Emax,num)
         num = 1001; % default value for num
     end
     if nargin < 7
-        Emax =  5; % default value for num
+        Emax =  5; % default value for Emax
     end
     if nargin < 6
-        Emin = -5; % default value for num
+        Emin = -5; % default value for Emin
     end
     if nargin < 4
-        N = 1; % default value for state
+        N = 1; % default value for width
     end
     if nargin < 5
-        Txy = zeros(length(T0)); % default value for state
+        Txy = zeros(length(T0)); % default value for Txy
     end
     Ef=linspace(Emin,Emax,num);
 H00=kron(eye(N),T0)+kron(diag(ones(1,N-1),1),Ty)+kron(diag(ones(1,N-1),-1),Ty');
