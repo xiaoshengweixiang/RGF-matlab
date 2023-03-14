@@ -30,6 +30,6 @@ https://arxiv.org/pdf/cond-mat/0210519.pdf
 # More complicated calculations
 
 1.In some cases, $t_{x}$, $t_{y}$ are functions of y,such as the existence fo magnetic, leads to H00,H01 way of calculation.
-https://github.com/xiaoshengweixiang/RGF-H00/edit/main
+https://github.com/xiaoshengweixiang/RGF-H00
 
 2.For Nonequilibrium green function calculation, we needs contracts with different chemical potential to generate electric current.Furthermore, two contracts system and six contracts system have different information.
