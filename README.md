@@ -15,14 +15,20 @@ If you provide the correspond $\epsilon$, $t_{x}$, $t_{y}$, $N$, you can get the
 Just follow the steps show in example:
 
 1.input correspond $\epsilon$, $t_{x}$, $t_{y}$, $N$.
+N is the width of the system.
 
 2.use bands function to obtain band structure.
 
 3.use transmission function to obtain Transmittance.
 # Detail information
-N is the width of the system
 
 Is code don't consider the contracts/leads of the sample, which means the two leads are sample itself.
 
 basic princple
 https://arxiv.org/pdf/cond-mat/0210519.pdf
+
+# More complicated calculations
+
+1.In some cases, $t_{x}$, $t_{y}$ are functions of y,such as the existence fo magnetic, leads to H00,H01 way of calculation.
+
+2.For Nonequilibrium green function calculation, we needs contracts with different chemical potential to generate electric current.Furthermore, two contracts system and six contracts system have different information.
