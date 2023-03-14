@@ -13,9 +13,11 @@ $$
 If you provide the correspond $\epsilon$, $t_{x}$, $t_{y}$, $N$, you can get the band stucture $E(k_x)$ and Transmittance with different fermi-energy $T_{LR}(E_f)$ .
 # How to use
 Just follow the steps show in example,:
-1.input correspond $\epsilon$, $t_{x}$, $t_{y}$, $N$
-2.use bands function to obtain band structure 
-3.use transmission function to obtain Transmittance
+1.input correspond $\epsilon$, $t_{x}$, $t_{y}$, $N$.
+
+2.use bands function to obtain band structure.
+
+3.use transmission function to obtain Transmittance.
 # Detail information
 N is the width of the system
 
