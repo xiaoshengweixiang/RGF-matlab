@@ -1,9 +1,9 @@
 function bands(T0,Tx,Ty,N,Txy,num)
     if nargin < 4
-        N = 1; % default value for num
+        N = 1; % default value for width
     end
     if nargin < 5
-        Txy = zeros(length(T0)); % default value for state
+        Txy = zeros(length(T0)); % default value for Txy
     end
     if nargin < 6
         num = 1001;
